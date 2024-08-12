@@ -65,12 +65,12 @@ const UeberSection = () => {
           {techStack.map((item, index) => (
             <li
               key={index}
-              className="flex flex-col justify-center items-center bg-customBackground2 p-4 gap-4 rounded-xl h-32 w-44 mx-auto"
+              className="flex flex-col justify-center items-center bg-customBackground2 p-8 gap-4 rounded-xl h-fit w-full mx-auto"
             >
-              <span className="text-6xl text-customDarkTurqoise">
+              <span className="text-8xl text-customDarkTurqoise">
                 {item.icon}
               </span>
-              <p className="text-customGray">{item.text}</p>
+              <p className="text-customGray tracking-wider font-bold">{item.text}</p>
             </li>
           ))}
         </ul>

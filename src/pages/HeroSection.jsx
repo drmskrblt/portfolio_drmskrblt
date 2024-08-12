@@ -6,7 +6,7 @@ const HeroSection = () => {
     // Hero Section
     <section className="max-w-screen-xl mx-auto">
       {/* Container */}
-      <div className="relative h-screen md:h-[800px] grid grid-cols-1 md:grid-cols-2">
+      <div className="relative h-screen md:h-[600px] grid grid-cols-1 md:grid-cols-2">
         {/* Background Image with Opacity */}
         <div
           className="absolute inset-0 bg-no-repeat opacity-30 bg-center md:bg-right"
@@ -17,7 +17,7 @@ const HeroSection = () => {
 
         {/* Content */}
         <div className="relative flex flex-col md:justify-center gap-6 p-4 md:order-1 mt-4 tracking-wider">
-          <h1 className="text-4xl md:text-6xl text-customDarkTurqoise">
+          <h1 className="text-4xl md:text-6xl text-customDarkTurqoise font-bold">
             <span>
               <p className="text-2xl md:text-2xl text-customGray">
                 Hey. Ich bin
