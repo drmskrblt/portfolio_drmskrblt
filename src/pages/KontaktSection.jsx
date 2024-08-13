@@ -11,11 +11,11 @@ const KontaktSection = () => {
         <div className="flex justify-center items-center my-8">
           <ul className="space-y-4 text-customGray">
             <li className="flex items-center">
-              <BsFillTelephoneFill className="text-4xl bg-customBackground2 p-1 rounded-md text-customDarkTurqoise mr-6"/>
+              <BsFillTelephoneFill className="text-4xl text-customDarkTurqoise mr-6"/>
               <a href="tel:491797555502" className="text-xl hover:text-white">Tel: 01797 5555 02</a>
             </li>
             <li className="flex items-center">
-              <MdEmail className="text-4xl bg-customBackground2 p-1 rounded-md text-customDarkTurqoise mr-6" />
+              <MdEmail className="text-4xl text-customDarkTurqoise mr-6" />
               <a href="mailto:durmus@gmx.de" className="text-xl hover:text-white">E-Mail: durmusk@gmx.de</a>
             </li>
           </ul>

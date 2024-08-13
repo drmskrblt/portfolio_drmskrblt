@@ -47,7 +47,7 @@ const Navbar = () => {
         </ul>
 
         <button className="hidden md:block p-2 px-4 border-2 border-customDarkTurqoise text-customLightTurqoise">
-          <a href="#kontakt">CV</a>
+          <a href="CV_Durmus-Karabulut.pdf" target="_blank" rel="noopener noreferrer">CV</a>
         </button>
       </div>
 
@@ -72,7 +72,7 @@ const Navbar = () => {
             </li>
           ))}
           <button className="p-2 px-4 border-2 border-customDarkTurqoise text-customLightTurqoise">
-            <a href="#kontakt">CV</a>
+          <a href="CV_Durmus-Karabulut.pdf" target="_blank" rel="noopener noreferrer">CV</a>
           </button>
         </ul>
       </div>

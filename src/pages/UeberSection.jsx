@@ -12,7 +12,7 @@ import { FaUbuntu } from "react-icons/fa";
 const UeberSection = () => {
   const ueberMich = [
     {
-      beschreibung: "Hey, ich bin , Junior Full-Stack Developer.",
+      beschreibung: "Hey, ich bin Durmus, Junior Full-Stack Developer.",
     },
     {
       beschreibung:
